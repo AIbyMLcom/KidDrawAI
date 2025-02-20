@@ -72,7 +72,7 @@ with gr.Blocks(title="KidDraw - Your Digital Art Gallery!") as demo:
                     label="Upload Your Drawing Here! 🎨"
                 )
                 initial_q = gr.Textbox(
-                    label="What would you like to know about your drawing?",
+                    label="What would you like to draw about your picture?",
                     placeholder="Leave blank and I'll tell you what I see!",
                     visible=True
                 )
